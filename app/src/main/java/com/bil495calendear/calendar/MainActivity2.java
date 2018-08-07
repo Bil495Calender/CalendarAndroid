@@ -5,21 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.CalendarView;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -36,12 +23,11 @@ public class MainActivity2 extends AppCompatActivity {
     public String m = "";
 
     CalendarView calendarView;
-    TextView  myDate;
-    RequestQueue requestQueue;
-    Appointment appointment;
+    Context context;
+
+
     List<Appointment> appointments;
     List<Appointment> searchs;
-    Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +39,7 @@ public class MainActivity2 extends AppCompatActivity {
         calendarView = findViewById(R.id.calendarView);
         //myDate = findViewById(R.id.myDate);
         //postData = (Button) findViewById(R.id.data);
-        requestQueue = Volley.newRequestQueue(this);
-        appointments = new ArrayList<Appointment>();
+         appointments = new ArrayList<Appointment>();
         searchs = new ArrayList<Appointment>();
 
         if (cv != null) {
@@ -72,8 +57,8 @@ public class MainActivity2 extends AppCompatActivity {
                     } else {
                         m = (month + 1) + "";
                     }
-                    String msg1 = dom + "/" + m + "/" + year;
-                    String msg = "Selected date is " + dom + "/" + m + "/" + year;
+                    String msg1 = year + "-" + m + "-" + dom;
+                    String msg = "Selected date is " + year + "-" + m + "-" + dom;
                     Toast.makeText(MainActivity2.this, msg, Toast.LENGTH_SHORT).show();
                     if (date.equals(msg1)) {
                         counter = 1;
@@ -84,7 +69,7 @@ public class MainActivity2 extends AppCompatActivity {
 
                     if (counter >= 1) {
                         try {
-                            SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
+                            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
                             Intent i = new Intent(MainActivity2.this,AddingCalenderEventAndroid.class);
                             Date dt = format.parse(date);
                             Calendar calendarEvent = Calendar.getInstance();
@@ -99,33 +84,6 @@ public class MainActivity2 extends AppCompatActivity {
 
                 }
             });
-            final String URL = "";
-            StringRequest stringGETRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
-
-                @Override
-                public void onResponse(String response) {
-                    try {
-                        JSONArray json = new JSONArray(response);
-                        for (int i = 0; i < json.length(); i++) {
-                            appointment = new Appointment();
-                            JSONObject obj = json.getJSONObject(i);
-                            appointment.comment = obj.getString("comment");
-                            appointment.date = obj.getString("date");
-                            appointments.add(appointment);
-                        }
-
-                } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                }//onresponse
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    Log.d("error", "error");
-                }
-            });
-            requestQueue.add(stringGETRequest);
-
+        }
         }
     }
-}
