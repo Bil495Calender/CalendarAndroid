@@ -798,7 +798,8 @@ int integer abc_config_activityDefaultDur 0x7f080000
 int integer abc_config_activityShortDur 0x7f080001
 int integer cancel_button_image_alpha 0x7f080002
 int integer config_tooltipAnimTime 0x7f080003
-int integer status_bar_notification_info_maxnum 0x7f080004
+int integer google_play_services_version 0x7f080004
+int integer status_bar_notification_info_maxnum 0x7f080005
 int layout abc_action_bar_title_item 0x7f090000
 int layout abc_action_bar_up_container 0x7f090001
 int layout abc_action_menu_item_layout 0x7f090002
@@ -882,8 +883,10 @@ int string abc_shareactionprovider_share_with 0x7f0b0024
 int string abc_shareactionprovider_share_with_application 0x7f0b0025
 int string abc_toolbar_collapse_description 0x7f0b0026
 int string app_name 0x7f0b0027
-int string search_menu_title 0x7f0b0028
-int string status_bar_notification_info_overflow 0x7f0b0029
+int string common_google_play_services_unknown_issue 0x7f0b0028
+int string fcm_fallback_notification_channel_label 0x7f0b0029
+int string search_menu_title 0x7f0b002a
+int string status_bar_notification_info_overflow 0x7f0b002b
 int style AlertDialog_AppCompat 0x7f0c0000
 int style AlertDialog_AppCompat_Light 0x7f0c0001
 int style Animation_AppCompat_Dialog 0x7f0c0002
