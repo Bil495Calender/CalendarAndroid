@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\e9de1666dbd5264c266e6f0226651f95\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\8a7aa2b856157b1de4d1e54f4e6dc81c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\005161e566c1b61a69132c4f40e41e6d\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-alpha3.aar\e8d6f54a6e16dc7bd5899c949d1992e7\AndroidManifest.xml:17:1-22:12
@@ -30,25 +31,27 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asus\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\0fbf001c99d1d14c51552ef1068ff5a3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1783b14e246eb92ff7493a2a15b1edbc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-alpha3.aar\91e7dfafb2d3a1336b074e3d9b0537ef\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\e9de1666dbd5264c266e6f0226651f95\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\e9de1666dbd5264c266e6f0226651f95\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\005161e566c1b61a69132c4f40e41e6d\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\005161e566c1b61a69132c4f40e41e6d\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\692c25e67cfdab7beba25e56c4f7121e\AndroidManifest.xml:22:5-94
@@ -69,24 +72,30 @@ MERGED from [com.android.support:versionedparcelable:28.0.0-alpha3] C:\Users\Asu
 		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.bil495calendear.calendar.MainActivity
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:12:9-18:20
+activity#com.bil495calendear.calendar.MainActivity2
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:13:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.bil495calendear.calendar.AddingCalenderEventAndroid
+ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:20:9-73
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml:20:19-61
 uses-sdk
 INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Asus\AndroidStudioProjects\Calendar\app\src\main\AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\e9de1666dbd5264c266e6f0226651f95\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\e9de1666dbd5264c266e6f0226651f95\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\8a7aa2b856157b1de4d1e54f4e6dc81c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0-alpha3] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha3.aar\8a7aa2b856157b1de4d1e54f4e6dc81c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Asus\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\005161e566c1b61a69132c4f40e41e6d\AndroidManifest.xml:5:5-7:41
